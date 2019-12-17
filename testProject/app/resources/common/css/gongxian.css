@@ -1,0 +1,129 @@
+
+/* 第一个表格的样式 */
+table.altrowstable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    border-width: 1px;
+    border-color: #9ea7a8;
+    border-collapse: collapse;
+    width: 97%;
+    box-shadow:  0px 1px 5px #808080;;
+    margin-left: 25px;
+
+    }
+table.altrowstable th {
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color:#7f8181;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 20px;
+     
+    }
+table.altrowstable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #7f8181;
+    height: 50px;
+    padding-left: 95px;
+    font-size: 14px;
+    
+    }
+
+/* 第二个表格的样式 */
+table.altrowstable2{  
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    border-width: 1px;
+    border-color: #9ea7a8;
+    border-collapse: collapse;
+    width: 97%;
+    box-shadow:  0px 1px 5px #808080;;
+    margin-left: 25px;
+	border:1px solid #808080;
+    }
+
+table.altrowstable2 th{
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color:#7f8181;
+    font-size: 14px;
+    padding-left: 20px;
+    background-color: rgb(199, 199, 199);
+    color: white;
+    }
+
+table.altrowstable2 td{
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #7f8181;
+    text-align: center;
+    font-size: 18px;
+     
+    }
+table.altrowstable2 tr:nth-child(even){
+    background:#ffffff; 
+    }
+
+table.altrowstable2 tr:nth-child(odd){
+    background: rgb(248, 248, 248);
+    }
+
+table.altrowstable2 tr td div{
+         font-size: 12px;
+         text-align: left;
+        
+    }    
+
+.oddrowcolor{
+    background-color:#ffffff;
+    }
+
+.evenrowcolor{
+    background-color: #f1f1f1;
+    }
+    
+
+.button{
+    width: 90px;
+    height: 35px;
+    margin-left: 1350px;
+    background: #f1960e;
+  
+    } 
+#parent select {
+    background: transparent;
+    border:1px solid #cecece;
+    padding-left: 10px;
+    margin-left: 40px;
+    width: 400px;
+    height: 40px;
+    }
+
+    /* 记录显示 */
+.num{
+    position: absolute;
+    margin-top: 0px;
+    }    
+
+    /* 分页 */
+.page{ 
+    text-align: center; 
+    margin: 0;
+    margin-left: 1310px;  
+     }
+
+.page a,.page span{ 
+    text-decoration: none;
+    border:1px solid #5f5f5e; 
+    padding: 3px 7px;
+    color: #767675; 
+    cursor: pointer; 
+    }
+
+.page a:hover,.page span:hover{ color: red; }    
+
